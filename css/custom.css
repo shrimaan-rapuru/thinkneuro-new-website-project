@@ -1,9 +1,29 @@
 /*************************************************************************
  * Your custom CSS file
  *************************************************************************/
+.front_page h2,
+a {
+  color: rgba(0, 187, 255, 0.647);
+}
 
-.custom-dropdown {
-  width: 240px;
+.text {
+  font-style: italic;
+  color: black;
+}
+
+.banner {
+  background-color: rgb(106, 0, 255);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white 36, 36);
+  font-family: 'Times New Roman', Times, serif;
+  left: 0;
+  right: 0;
+  width: auto;
 }
 
 .custom-textbox {

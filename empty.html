@@ -1,50 +1,129 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Project Title</title>
-  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Experience - Shrimaan Rapuru</title>
+
+  <!-- External CSS -->
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet" type="text/css" />
+  <link href="css/frame.css" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/footer.js"></script>
+
   <style>
+    body {
+      background-color: #ffffff; /* White background */
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+    }
+
     .menu-index {
       color: rgb(255, 255, 255) !important;
       opacity: 1 !important;
       font-weight: 700 !important;
+    }
+
+    h2 {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      color: #1e3a8a; /* dark blue heading */
+      margin-top: 20px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .experience-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .experience-card {
+      background-color: #ffffff; /* White card background */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .experience-card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #1e3a8a;
+    }
+
+    .experience-card h4 {
+      margin: 0 0 10px 0;
+      font-size: 16px;
+      color: #333333;
+    }
+
+    .experience-card ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .experience-card ul li {
+      margin-bottom: 8px;
+      font-size: 16px;
+      font-weight: bold;
     }
   </style>
 </head>
 
 <body>
   <div class="menu-container"></div>
-  <div class="content-container">
-    <div class="content">
-      <div class="content-table flex-column">
-        <div class="flex-row">
-          <div class="flex-item flex-column">
-            <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi.
-            </p>
-            <h2>Heading 1</h2>
-            <hr>
-            <p class="text">
-              Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet.
-            </p>
-          </div>
-        </div>
-      </div>
+
+  
+
+  <div class="experience-container">
+
+    <!-- Head Coach -->
+    <div class="experience-card">
+      <h3>Head Coach – MATHCOUNTS CLUB</h3>
+      <h4>Southwest Guilford Middle School, Aug 2025 - Present</h4>
+      <ul>
+        <li>As the founder of the MATHCOUNTS Club I coach the current team by providing in-person instructions and advanced competition-level math training.</li>
+        <li>Collaborate closely with students and faculty advisor Mrs. Hudak to set performance benchmarks, track progress, and prepare students for high-level middle school math competitions.</li>
+      </ul>
     </div>
+
+    <!-- Community Service Leader -->
+    <div class="experience-card">
+      <h3>Community Service Leader – Open Door Ministries</h3>
+      <h4>High Point, NC, May 2024 - Present</h4>
+      <ul>
+        <li>Lead and coordinate weekly breakfast deliveries for the homeless community.</li>
+        <li>Founded and organized a clothing drive serving Open Door Ministries, sustaining the initiative for over two years and increasing community participation and donations.</li>
+      </ul>
+    </div>
+
+    <!-- Retail Associate -->
+    <div class="experience-card">
+      <h3>Retail Associate – CVS Pharmacy</h3>
+      <h4>Greensboro, NC, June 2025 - Present</h4>
+      <ul>
+        <li>Work part-time as a cashier, handling customer transactions and maintaining efficient store operations.</li>
+        <li>Balance employment with academic responsibilities, tutoring, and household obligations to independently manage both personal and community service expenses.</li>
+      </ul>
+    </div>
+
   </div>
-  <div class="footer-container"></div>
+
+  
 </body>
 
 </html>
